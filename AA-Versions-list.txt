@@ -1,0 +1,13 @@
+
+AA-Versions list
+
+0.1.1     First trial on main server, mostly working
+0.1.02    Added images
+0.1.03    Now includes items that follow redirects
+0.1.1.4   New Numbering, bug fixes for &amp; escape and List of sourced items
+0.1.1.5   Support for skinning html output, fixed redirects over riding existing url items
+0.1.2     new Accept Reject Filter, items cached to disk
+0.1.2.1   16/4/09 Fixed bug in spider where it didn't report on redirects not taken
+		  Fixed bug in SpiderTask, where  http://a.com/ and http://www.com  where both sent
+		  stopped circular redirects
+0.1.2.2	  6/6/09  Generated default date, to allow parsing dateless feeds, fixed rdf parsing, added atom:modified and issued tags
